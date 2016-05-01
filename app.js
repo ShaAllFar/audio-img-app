@@ -24,3 +24,9 @@ function playSong(){
     player.play();
   }
 }
+
+function handleMouseOver(event){
+  playSong();
+}
+var playerPlay = document.getElementById('img');
+playerPlay.addEventListener('mouseover', handleMouseOver);
